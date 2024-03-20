@@ -1,0 +1,18 @@
+@import url('https://fonts.google.com/specimen/Nunito+Sans?query=nunito');
+@import url('https://fonts.google.com/specimen/Shrikhand');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Recipe Card Hover Effect */
+.bg-white:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Link Hover Effect for the Footer */
+  a:hover {
+    text-decoration: underline;
+  }
+  
